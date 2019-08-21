@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_call"
+        android:checked="true"
+        android:icon="@drawable/ic_call_black_24dp"
+        android:title="@string/call"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_history"
+        android:checked="false"
+        android:icon="@drawable/ic_history_black_24dp"
+        android:title="@string/history"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_message"
+        android:checked="false"
+        android:icon="@drawable/ic_message_black_24dp"
+        android:title="@string/message"
+        app:showAsAction="ifRoom" />
+</menu>
